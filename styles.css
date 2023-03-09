@@ -1,0 +1,233 @@
+
+body {
+    font-family: 'Roboto';
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+}
+
+.header-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 550px; /* important so that it gets longer when page gets narrower */
+    flex: 1 1 auto; /* this as well */
+
+}
+
+.header 
+{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 16px;
+    margin-top: 16px;
+    margin-bottom: 128px;
+    margin-left: 64px;
+    margin-right: 64px;
+}
+
+.header-logo
+{
+    font-size: 24px;
+    font-weight: 900;
+}
+.header-links {
+    display: flex;
+    font-size: 18px;
+    gap: 16px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-weight: 100;
+
+}
+
+img {
+    border-radius: 15px;
+    
+    
+}
+
+#one {
+    max-width: 504px;
+    width: 370px;  
+    flex: 1 1 0;
+    height: auto;
+    align-self: center;
+}
+
+
+.introduction {
+    display: flex;
+    justify-content: center;
+    gap: 34px;
+    font-size: 32px;
+    font-family: 'Roboto';
+    font-weight: 200;
+    margin: 64px 64px;
+    flex-wrap: wrap;
+} 
+
+.container {
+
+    max-width: 720px;
+    flex: 1 1 0;
+}
+
+button {
+    width: 100px;
+    height: 30px;
+    border-radius: 6px;
+    border-width: 2px;
+
+}
+
+#btn-1 {
+    background-color: #3882F6;
+    color: white;
+    border: none;
+}
+
+#btn-1:hover {
+    background-color: white;
+    color: #3882F6;
+}
+
+#btn-2 {
+    border-color: white;
+    background-color: transparent;
+    color: white;
+    border-style: solid;
+}
+
+#btn-2:hover {
+    border-color: white;
+    background-color: white;
+    color:  #3882F6;
+    border-style: solid;
+}
+
+h1 {
+    margin: 0px;
+    font-family: 'Roboto';
+    font-size: 48px;
+}
+
+p {
+    margin: 0px;
+}
+
+.illustrations-container {
+    display: flex;
+    gap: 32px;
+    justify-content: center;
+    color: grey;
+    flex-wrap: wrap;
+}
+
+.img2 {
+    height: 200px;
+    width: 200px;
+}
+
+.illustration {
+    max-width: 200px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 36px;
+    font-weight: extra-bold;
+}
+
+.quote {
+    font-size: 36px;
+    color: #1F2937;
+    padding: 86px;
+    background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    font-weight: 200px;
+    flex: 1;
+}
+
+.quote-container {
+    width: 1000px;
+}
+
+.txt {
+    text-align: left;
+    margin-bottom: 16px;
+    font-style: italic;
+    font-weight: 200;
+  }
+  
+  .author {
+    display: flex;
+    justify-content: flex-end;
+    font-weight: bold;
+    font-size:24px;
+  }
+
+  .information {
+    padding: 64px;
+    flex: 1;
+  }
+
+  .sign_up-container {
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    padding: 32px;
+    height: 300px;
+  }
+  .sign_up {
+    background-color: #3882F6;
+    width: 900px;
+    height: 150px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 8px;
+    padding:8px;
+    flex-wrap: wrap;
+  }
+
+  .words {
+    
+    font-size: 16px;
+    font-weight: 100;
+  }
+
+  .headline {
+    font-weight: bold;
+    font-size: 24px;
+
+  }
+
+  .footer {
+    display: flex;
+    color: grey;
+    align-items: center;
+    justify-content: center;
+    font-size: 11px;
+    height: 50px;
+  }
+
+  .header-container,
+  .footer {
+    background-color: #1F2937;
+  }
+
+  .header,
+  .introduction,
+  .sign_up {
+    color: white;
+  }
+
+
+
